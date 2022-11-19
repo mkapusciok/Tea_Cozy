@@ -1,0 +1,153 @@
+/* Universal Styles */
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.375rem;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+/* Header */
+header {
+    height: 4.3125rem;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    z-index: 1;
+    background-color: black;
+}
+
+header img {
+    height: 3.125rem;
+    position: relative;
+    left: 0.625rem;
+}
+
+nav {
+    position: relative;
+    float: right;
+    display: inline-block;
+}
+
+a {
+    text-decoration: underline;
+    color: inherit;
+    margin-right: 0.5rem;
+}
+
+/* Main */
+main {
+    position: relative;
+    top: 4.375rem;
+    width: 75rem;
+    justify-content: center;
+    margin: auto;
+}
+
+/* Mission */
+#mission {
+    background-image: url("../images/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 43.75rem;
+    align-items: center;
+}
+
+.content {
+    background-color: black;
+    width: 100%;
+}
+
+/* Featured Tea */
+#featured_tea {
+    width: 62.5rem;
+    margin: auto;
+    align-items: center;
+    height: 43.75rem;
+    flex-direction: column;
+}
+
+.items {
+    justify-content: center;
+}
+
+.item {
+    padding: 5px;
+}
+
+.item img {
+    width: 18.75rem;
+    display: block;
+}
+
+.item span {
+    display: block;
+    padding: 5px;
+    text-align: center;
+}
+
+/* Locations */
+.flex-container.locations {
+    padding-top: 5px;
+  }
+
+#locations {
+    background-image: url("../images/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 31.25rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4.375rem;
+}
+
+#locations .flex-container {
+    margin: auto;
+    width: 68.75rem;
+}
+.locations {
+    justify-content: center;
+}
+
+.location {
+    background-color: black;
+    width: 18.75rem;
+    padding: 0.625rem;
+    margin: 0.9375rem 1.25rem;
+    flex-basis: 17.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Contact */
+#contact {
+    flex-direction: column;
+    justify-content: center;
+    height: 12.5rem;
+    position: relative;
+    top: 4.375rem;
+}
+
+/* Footer */
+footer {
+    position: relative;
+    top: 4.375rem;
+    float: left;
+    left: 1.25rem;
+}
